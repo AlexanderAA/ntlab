@@ -1,0 +1,7 @@
+build
+*.pyc
+production.ini
+development.ini
+.DS_Store
+data
+app.log
