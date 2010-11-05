@@ -1,0 +1,3 @@
+include ntlab/config/deployment.ini_tmpl
+recursive-include ntlab/public *
+recursive-include ntlab/templates *
