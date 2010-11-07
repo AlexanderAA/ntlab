@@ -1,0 +1,4 @@
+
+h2. Python modules
+
+easy_install pymongo=='1.9'

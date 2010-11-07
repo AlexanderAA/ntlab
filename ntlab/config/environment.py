@@ -1,5 +1,6 @@
 """Pylons environment configuration"""
 import os
+import pymongo
 
 from mako.lookup import TemplateLookup
 from pylons.configuration import PylonsConfig
@@ -44,5 +45,6 @@ def load_environment(global_conf, app_conf):
 
     # CONFIGURATION OPTIONS HERE (note: all config options will override
     # any Pylons config options)
+    config['pylons.app_globals'].mongo = pymongo.Connection()
     
     return config
